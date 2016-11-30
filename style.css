@@ -11,15 +11,23 @@
 	right: 20px;
 }
 .menu-item {
+	right: 10px;
 	display: inline-block;
-	color: #666;
+	color: #F2F2F2;
 	position: relative;
 	font-family: arial;
 	font-size: 12px;
+	color: black;
+	text-decoration: none;
 
 }
+.menu-item-footer{
+	color: grey;
+}
 #body {
+	position: relative;
 	text-align: center;
+	top: 82px;
 }
 #footer {
 	height: 40px;
@@ -44,18 +52,19 @@
 	margin-top:10px;
 }
 #search-wrapper {
-
+	top: 10px;
+	position: relative;
 }
 #search-wrapper input {
-	width: 443px;
-	height: 38px;
+	width: 493px;
+	height: 33px;
 }
 #button-holder {
 
 }
 #button-holder button {
-	width: 125px;
-	top: 30px;
+	width: 131px;
+	top: 39px;
 	height: 36px;
 	position: relative;
 	background-color: #F2F2F2;
